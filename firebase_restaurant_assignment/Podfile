@@ -1,0 +1,16 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '12.4'
+
+target 'firebase_restaurant_assignment' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for firebase_restaurant_assignment
+    pod 'Firebase/Storage'
+    pod 'Firebase/Analytics'
+    pod 'SDWebImage'
+    pod 'XLPagerTabStrip'
+    pod 'Firebase/Core'
+    pod 'Firebase/Firestore'
+
+end
